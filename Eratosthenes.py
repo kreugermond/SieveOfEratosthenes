@@ -26,6 +26,4 @@ if y=="Y" or y=="yes" or y=="Yes":
 elif y=="N" or y=="no" or y=="No":
    print('okie dokie')
 else:
-   print('You should answer with yes or no');
-   y
-	 
+   print('You should answer with yes or no'); 
