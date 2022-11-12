@@ -17,13 +17,19 @@ def division():
       i+=1		 
    
 division()
-print("The prime numbers until",x,"are: ",listt)  
+z=len(listt)
+print("The prime numbers until",x,"are: ",listt)
+print("There are",z,"primes in this list")
 
-y=str(input('Do you want a specific prime? \n (Y/N) '))
-if y=="Y" or y=="yes" or y=="Yes":
+y=str(input('Do you want the position of a prime or a prime by its position? \n (Pos/Pri/N) '))
+if y=="Pos" or y=="pos" or y=="position":
    p=int(input('which? '));
-   print(listt[p-1])	 
+   print("the",p,"prime is:",listt[p-1])
+elif y=="Pri" or y=="pri" or y=="prime":
+       p=int(input('which? '));
+       index=listt.index
+       print(p,"is the",listt.index(p)+1,"prime")
 elif y=="N" or y=="no" or y=="No":
    print('okie dokie')
 else:
-   print('You should answer with yes or no'); 
+   print('You should answer with yes or no');
