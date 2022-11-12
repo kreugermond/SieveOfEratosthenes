@@ -32,4 +32,4 @@ elif y=="Pri" or y=="pri" or y=="prime":
 elif y=="N" or y=="no" or y=="No":
    print('okie dokie')
 else:
-   print('You should answer with yes or no');
+   print('You should answer with Pos/Pri/N');
